@@ -1,0 +1,18 @@
+escape 		^j^j
+startup_message	off
+#defencoding	SJIS
+#defencoding	eucJP
+defencoding	utf8
+#hardstatus 	alwayslastline "%w"
+#caption always "%{= wb} %-w%{=bu dr}%n %t%{-}%+w %= %{=b wk} [%l] %{=b wb}%y/%m/%d(%D) %{=b wm}%c"
+caption	always	"%H %?%F%{= bw}%:%{= wb}%? %t (%W)%= %m/%d %c %`"
+monitor		on
+autodetach	on
+activity	"Activity in windows %."
+#termcap  	facit|vt100|xterm LP:G0
+#terminfo 	facit|vt100|xterm LP:G0
+bind	s	split
+bind	w	windowlist -b
+
+
+
